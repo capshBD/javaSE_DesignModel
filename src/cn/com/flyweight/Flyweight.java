@@ -1,5 +1,5 @@
 package cn.com.flyweight;
-//ÏíÔªµ¥Î»
+//äº«å…ƒå•ä½
 public interface Flyweight 
 {
 	public void operation();
