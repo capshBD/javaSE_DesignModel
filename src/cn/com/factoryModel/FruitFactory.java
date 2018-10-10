@@ -8,7 +8,7 @@ public class FruitFactory {
 		try {
 			Class<Fruit> fruit=(Class<Fruit>) Class.forName(type);
 			return fruit.newInstance();
-		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return null;

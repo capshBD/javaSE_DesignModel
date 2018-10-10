@@ -3,6 +3,7 @@ package cn.com.iteratorModel;
 import java.util.Arrays;
 import java.util.Iterator;
 
+
 public class CustomList <T> implements Iterable<T>{
 	private Object elements[];
 	private int size;
